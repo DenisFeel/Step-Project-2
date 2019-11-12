@@ -2,4 +2,28 @@ body {
 	font-family: arial, sans-serif;
 	margin: 0;
 	width: 1394px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 65px;
+	background-color: #1b5589;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+
+header ul li {
+	margin-left: 20px; 
+}
+
+header ul a {
+	text-decoration: none;
+	color: #7c9cb5;
 }
