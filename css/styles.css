@@ -81,7 +81,7 @@ h1 {
 	background-color: #cce5ff;
 	color: #285c98;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 19px;
 	padding-top: 22px;
 	padding-bottom: 16px;
 	border: 1px solid #c6e2ff;
@@ -104,11 +104,12 @@ h1 {
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	margin-bottom: 34px;
+	padding-left: 35px;
 }
 
 .avatar_form img {
 	width: 87%;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 input[type="file"] {
@@ -117,11 +118,11 @@ input[type="file"] {
 
 input[type="file"] + label {
 	display: inline-block;
-	padding: 16px 35px 10px 35px;
+	padding: 15px 35px 12px 35px;
 	background-color: #6c757d;
 	color: #f5fdf5;
 	box-sizing: border-box;
-	font-size: 18px;
+	font-size: 20px;
 	border-radius: 4px;
 	cursor: pointer;
 }
@@ -130,7 +131,7 @@ input[type="file"] + label {
 	width: 100%;
 	font-size: 18px;
 	padding: 15px 0 10px 15px;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 	border: 1px solid #dde1e5;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -143,16 +144,16 @@ input[type="file"] + label {
 }
 
 input::placeholder {
-	color: #8f9aa9;
+	color: #6c757d;
 } 
 
 button {
 	width: 100%;
-	padding: 16px 35px 10px 35px;
+	padding: 15px 35px 12px 35px;
 	background-color: #6c757d;
 	color: #f5fdf5;
 	box-sizing: border-box;
-	font-size: 18px;
+	font-size: 20px;
 	border-radius: 4px;
 	cursor: pointer;
 	border: none;
