@@ -142,7 +142,7 @@ input[type="file"] + label {
 	width: calc(100% - 35px);
 }
 
-.info_form input::placeholder {
+input::placeholder {
 	color: #8f9aa9;
 } 
 
