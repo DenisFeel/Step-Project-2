@@ -43,3 +43,11 @@ header ul a {
 a:active, a:hover, .active {
 	color: #e7ebee;
 }
+
+h1 {
+	text-align: center;
+	color: #363542;
+	font-weight: 100;
+	font-size: 40px;
+	font-family: ArialLight;
+}
