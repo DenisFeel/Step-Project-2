@@ -139,3 +139,14 @@ input[type="file"] + label {
 	color: #8f9aa9;
 } 
 
+button {
+	width: 100%;
+	padding: 16px 35px 10px 35px;
+	background-color: #6c757d;
+	color: #f5fdf5;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
