@@ -121,14 +121,14 @@ input[type="file"] + label {
 	background-color: #6c757d;
 	color: #f5fdf5;
 	box-sizing: border-box;
-	font-size: 20px;
+	font-size: 18px;
 	border-radius: 4px;
 	cursor: pointer;
 }
 
 .info_form input, .password_form input {
 	width: 100%;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 15px 0 10px 15px;
 	margin-bottom: 18px;
 	border: 1px solid #dde1e5;
@@ -152,8 +152,13 @@ button {
 	background-color: #6c757d;
 	color: #f5fdf5;
 	box-sizing: border-box;
-	font-size: 20px;
+	font-size: 18px;
 	border-radius: 4px;
 	cursor: pointer;
 	border: none;
+}
+
+.password_form button {
+	width: calc(100% - 35px);
+	margin-left: 35px;
 }
