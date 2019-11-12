@@ -60,6 +60,7 @@ h1 {
 
 .container {
 	display: flex;
+	padding-bottom: 30px;
 }
 
 .avatar_form {
@@ -95,6 +96,7 @@ h1 {
 .info_form h2 {
 	border-right: none;
 	border-left: none;
+	margin-bottom: 34px;
 }
 
 .password_form h2 {
@@ -119,6 +121,21 @@ input[type="file"] + label {
 	color: #f5fdf5;
 	box-sizing: border-box;
 	font-size: 20px;
-	border-radius: 3px;
+	border-radius: 4px;
 	cursor: pointer;
 }
+
+.info_form input {
+	width: 100%;
+	font-size: 20px;
+	padding: 15px 0 10px 15px;
+	margin-bottom: 18px;
+	border: 1px solid #dde1e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.info_form input::placeholder {
+	color: #8f9aa9;
+} 
+
