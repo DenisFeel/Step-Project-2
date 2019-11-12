@@ -38,6 +38,8 @@ header ul li {
 header ul a {
 	text-decoration: none;
 	color: #7d9bb4;
+	font-size: 20px;
+	letter-spacing: 0.1px;
 }
 
 a:active, a:hover, .active {
@@ -61,7 +63,7 @@ h1 {
 }
 
 .avatar_form {
-	width: 17%;
+	width: 18%;
 }
 
 
@@ -70,7 +72,7 @@ h1 {
 }
 
 .password_form {
-	width: 43%;
+	width: 42%;
 }
 
 .container h2 {
@@ -99,4 +101,24 @@ h1 {
 	border-left: none;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+}
+
+.avatar_form img {
+	width: 87%;
+	margin-top: 30px;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+input[type="file"] + label {
+	display: inline-block;
+	padding: 16px 35px 10px 35px;
+	background-color: #6c757d;
+	color: #f5fdf5;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 3px;
+	cursor: pointer;
 }
